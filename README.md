@@ -6,6 +6,9 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
+    gem 'devise'
+    gem 'omniauth'
+    gem 'omniauth-facebook'
     gem 'oauth_bundle'
 
 And then execute:
@@ -18,7 +21,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+
+Setup before start to use it.
+rails g devise:install
+rails g devise user
+rails g oauth_bundle:install
+
 
 ## Contributing
 

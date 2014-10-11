@@ -1,5 +1,2 @@
 require "oauth_bundle/version"
-
-module OauthBundle
-  # Your code goes here...
-end
+require "oauth_bundle/engine"
