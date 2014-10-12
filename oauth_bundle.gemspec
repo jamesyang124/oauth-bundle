@@ -9,13 +9,15 @@ Gem::Specification.new do |spec|
   spec.authors       = ["James Yang"]
   spec.email         = ["jamesyang124@gmail.com"]
   spec.summary       = %q{Bundle omniauth-facebook, omniauth-github, omniauth-twitter with Devise gem.}
-  spec.description   = %q{Set up devise first, then run `rails g oauth_bundle:install`}
-  spec.homepage      = ""
+  spec.description   = %q{`Create new rails app, then run rails g oauth_bundle:install`}
+  spec.homepage      = "https://github.com/jamesyang124/oauth_bundle"
   spec.license       = "MIT"
 
   spec.add_dependency "devise"
   spec.add_dependency "omniauth"
   spec.add_dependency "omniauth-facebook"
+  spec.add_dependency "omniauth-twitter"
+  spec.add_dependency "omniauth-github"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
