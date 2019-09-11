@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'oauth_bundle/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "oauth-bundle"
+  spec.name          = "oauth_bundle"
   spec.version       = OauthBundle::VERSION
   spec.authors       = ["James Yang"]
   spec.email         = ["jamesyang124@gmail.com"]
   spec.summary       = %q{Bundle omniauth-facebook, omniauth-github, omniauth-twitter with Devise gem.}
   spec.description   = %q{`Create new rails app, then run rails g oauth_bundle:install`}
-  spec.homepage      = "https://github.com/jamesyang124/oauth-bundle"
+  spec.homepage      = "https://github.com/jamesyang124/oauth_bundle"
   spec.license       = "MIT"
 
   spec.add_dependency "devise"
